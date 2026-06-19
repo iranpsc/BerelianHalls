@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'AzarMehr';
+    src: url("fonts/AzarMehr-DS2-FD-Bold.ttf") format('truetype');
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'AzarMehr';
+    src: url("fonts/AzarMehr-FD[DSTY,KSHD,wght].ttf") format('truetype');
+    font-weight: 400; /* Normal weight */
+    font-style: normal;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+
+  .parallax-section {
+    background-image: url('./images/4e86d246-a0c1-11ef-85ad-0242ac110002-jpg-hero_image.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .parallax-section6 {
+    background-image: url('./images/7d89a6c4-8f24-4c40-982c-96d2550a7f20.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+
+  .parallax-section2 {
+    background-image: url('./images/tagline-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+  }
+
+  .parallax-section3 {
+    background-image: url('./images/team-bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  .content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .clientname{
+    margin-top: 20px;
+  }
+  .swiper-pagination-bullet{
+    background-color: #f3c05d !important;
+  }
